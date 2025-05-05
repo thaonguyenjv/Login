@@ -6,7 +6,7 @@ if(!isset($_SESSION['username'])){
 ?>
 
 <div class="user-panel">
-    <h2>Bảng điều khiển người dùng</h2>
+    <h2>Bảng điều khiển Người dùng</h2>
     <p>Nội dung này có thể truy cập được cho tất cả người dùng.</p>
     
     <div class="user-section">
@@ -30,7 +30,7 @@ if(!isset($_SESSION['username'])){
 
 <style>
 .user-panel {
-    background-color: #f5fff5;
+    background-color: #f0f7ff;
     padding: 20px;
     border-radius: 5px;
 }

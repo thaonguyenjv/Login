@@ -27,9 +27,9 @@
     #banner{height:150px; background-color:#70ccff;}
     #left_menu{width:265px; background-color:#960; float:left;margin-right:5px;}
     #content{width:730px; background-color:#660;float:left;}
-    #footer{height:100px; background-color:black;}
-    .menu_item{padding:10px; background-color:lime;}
-    .menu_item:hover{background-color:yellow;}
+    #footer{height:100px; background-color:lightblue;}
+    .menu_item{padding:10px; background-color:#daf1ff;}
+    .menu_item:hover{background-color:white;}
     a:visited, a:link{color:#630;}
     a:hover{color:blue;}
 </style>

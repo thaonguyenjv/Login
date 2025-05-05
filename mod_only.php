@@ -6,7 +6,7 @@ if(!isset($_SESSION['username']) || ($_SESSION['quyen'] != "admin" && $_SESSION[
 ?>
 
 <div class="mod-panel">
-    <h2>Bảng điều khiển cho Mod</h2>
+    <h2>Bảng điều khiển cho Người điều hành</h2>
     <p>Nội dung này dành cho quản trị viên và người điều hành.</p>
     
     <div class="mod-section">

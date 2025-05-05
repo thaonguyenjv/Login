@@ -3,7 +3,7 @@ if(isset($_SESSION['username']) && isset($_SESSION['quyen'])){
     switch($_SESSION['quyen']){
         case "admin":
             echo "<a href='homepage.php?module=admin'><div class='menu_item'>Module 1: chỉ dành cho A</div></a>";
-            echo "<a href='homgpage.php?module=mod'><div class='menu_item'>Module 2: chỉ dành cho A, M</div></a>";
+            echo "<a href='homepage.php?module=mod'><div class='menu_item'>Module 2: chỉ dành cho A, M</div></a>";
             echo "<a href='homepage.php?module=user'><div class='menu_item'>Module 3: chỉ dành cho A, M, U</div></a>";
             break;
         case "mod":

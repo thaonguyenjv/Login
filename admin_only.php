@@ -7,7 +7,7 @@ if(!isset($_SESSION['username']) || $_SESSION['quyen'] != "admin"){
 
 <div class="admin-panel">
     <h2>Bảng điều khiển cho Quản trị viên</h2>
-    <p>Chào mừng đến với trang Admin.</p>
+    <p>Chào mừng đến với trang Quản trị.</p>
     
     <div class="admin-section">
         <h3>Quản lý người dùng</h3>
@@ -20,7 +20,7 @@ if(!isset($_SESSION['username']) || $_SESSION['quyen'] != "admin"){
     </div>
     
     <div class="admin-section">
-        <h3>Cấu hình hệ thống/h3>
+        <h3>Cấu hình hệ thống</h3>
         <ul>
             <li>Cài đặt Cơ sở dữ liệu</li>
             <li>Cài đặt bảo mật</li>
